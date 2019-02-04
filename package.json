@@ -75,7 +75,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "echo 'Pre-commit checks...' && lint-staged",
-      "pre-push": "echo 'Pre-push checks...' && npm run linters",
+      "pre-push": "echo 'Pre-push checks...' && npm run test-ci",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
