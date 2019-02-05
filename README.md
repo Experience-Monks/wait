@@ -1,6 +1,6 @@
 # wait
 
-Minimalistic <nano> library that promisified `setTimeout`.
+Minimalistic (nano < 30 bytes) library that promisified `setTimeout`.
 
 ## Installation
 
